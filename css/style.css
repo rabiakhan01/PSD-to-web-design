@@ -1,0 +1,241 @@
+/* * is liye used hota hay jab hum maximum hi styling aik jasi karna chahty hain to hamain bar bar un ko style nahi karna parta jab hum nay different karni hoti hay to hum is kay bad us ka nam likh kay style kar lain gay but baki sab ka yahi rah ja ga
+ */
+*{
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    font-family: 'Libre Baskerville', serif;
+        font-family: 'Quicksand', sans-serif;
+    
+}
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+  
+}
+/* overll padding */
+.uni-padding{
+    padding:0 7%
+}
+/* header  */
+#toll-free{
+    margin: 0;
+    margin-top: 5px;
+    color: white;
+    float:left;
+}
+#social-icons{
+    float:right;
+}
+.fa-brands{
+    background-color: white;
+    color:#576574;
+    padding:7px;
+    border-radius: 50%;
+}
+/* log section  */
+#logobar img{
+        height: 50px;
+        width: 80px;
+    margin: 25px 0px;
+}
+/* naviigation bar  */
+#navbar{
+    list-style-type: none;
+    color: white;
+    background-color: #ee5253;
+
+}
+#navbar ul li{
+    display: inline-block;
+    padding:  18px 0px;
+    padding-right: 35px;
+}
+#navbar ul{
+    margin:0px;
+}
+#navbar li a{
+    text-decoration: none;
+        color: white;
+}
+#links{
+background-color: #576574;
+color: white;
+overflow: auto;
+}
+/* heading  */
+.div1{
+      width: 33.33%;
+      float: left;
+    padding: 25px 50px;
+      box-sizing: border-box;
+}
+.div1 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: normal;
+    
+}
+/* footer */
+#footer-deco{
+    list-style-type: none;
+    padding: 0px;
+}
+#footer-deco li{
+    padding-bottom:10px;
+}
+#footer-deco li a{
+    text-decoration: none;
+    color: white;
+}
+#footer-menu{
+    padding-left:100px;
+}
+#copyRights{
+    background-color: #222f3e;
+    text-align: center;
+    padding: 10px;
+}
+#poster{
+    background-image: url(../images/poster.jpg);
+    height: 500px;
+    overflow: auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#poster h1{
+font-size: 50px;
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+.red_heading{
+    text-align: center;
+    color: #ee5253;
+    font-size:25px;
+    margin-top:50px
+}
+/* whyUs */
+.section1{
+    width:33.33%;
+    float: left;
+    text-align: center;
+    padding-top:0px;
+    padding-right:50px;
+    padding-left:50px;
+    box-sizing: border-box; /* size bara karny ki wajha say nchy a jata hay is lie border box karty hn ta kay woh diviosn kay ander hi padding kary */
+    margin-bottom: 50px;
+}
+.section1 img{
+    width: 105px;
+    height:150px;
+}
+.section1 p{
+    color: #363636;
+}
+/* Blog */
+#whyUssection{
+overflow: auto;
+}
+#Contact_info{
+    background-color: #ee5253;
+    color:white;
+    overflow: auto;
+    padding-top:20px;
+    padding-bottom:30px;
+}
+.content-data{
+
+    width:70%;
+    float:left;
+}
+.btn{
+    text-align: center;
+    padding-top: 70px;
+     width: 30%;
+    float: left;
+}
+#contact-btn{
+    color: #ee5253;
+    padding: 15px 20px;
+    background-color: white;
+    text-decoration: none;
+    border: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Blog */
+.section2 {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    /* size bara karny ki wajha say nchy a jata hay is lie border box karty hn ta kay woh diviosn kay ander hi padding kary */
+    margin-bottom: 50px;
+}
+
+.section2 img {
+    max-width: 100%;
+}
+
+.section2 p {
+    color: #363636;
+}
+.section2 a{
+    color: #ee5253;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+/* Subscriber */
+#subscriber{
+color: white;
+background-color: #ee5253;
+overflow: auto;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.section50{
+    width: 50%;
+    float: left;
+   
+    
+    
+}
+.section50 h2{
+    padding-right: 50px;
+    text-align: right;    
+    font-size: 27px;
+
+}
+.section50 form{
+    padding-top: 25px;
+}
+.section50 input[type="text"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    border: 0px;
+    width: 45%;
+}
+.section50 input[type="submit"] {
+    padding: 8px 35px;
+    font-size: 15px;
+    color: #ee5253;
+    border: 0px;
+    
+}
+.section50 ::placeholder{
+    color: #ee5253
+}
